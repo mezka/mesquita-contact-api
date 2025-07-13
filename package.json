@@ -1,0 +1,22 @@
+{
+  "name": "mesquita-contact-api",
+  "version": "0.0.1",
+  "description": "Form submission handler server with mesquita relevant integrations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "maxmind": "^4.3.28",
+    "mustache": "^4.2.0",
+    "node-telegram-bot-api": "^0.66.0",
+    "nodemailer": "^7.0.5"
+  },
+  "type": "commonjs"
+}
